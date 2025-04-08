@@ -7,7 +7,8 @@ import KozaFurikaeKeiyakuJokyoTable from '@/Components/KozaFurikaeKeiyakuJokyoTa
 import InlineBadge from '@/Components/InlineBadge.vue'
 import PrimaryCheckbox from '@/Components/PrimaryCheckbox.vue'
 import MeigaraRegisterForm from '@/Organisms/MeigaraRegisterForm.vue'
-
+import NisaComposable from '@/Organisms/NisaComposable.vue'
+import MokuromishoViewingConfirmationTable from '@/Organisms/MokuromishoViewingConfirmationTable.vue'
 const components = [
 
     {
@@ -100,6 +101,33 @@ const components = [
         },
     },
 
+    {
+        name: 'NisaComposable',
+        component: NisaComposable,
+        props: {
+            // Add any props you want to pass to NisaChart here
+            type: 'tsumitate',
+        },
+    },
+    {
+        name: 'NisaComposable',
+        component: NisaComposable,
+        props: {
+            // Add any props you want to pass to NisaChart here
+            type: 'seicho',
+        },
+    },
+    {
+        name: 'MokuromishoViewingConfirmationTable',
+        component: MokuromishoViewingConfirmationTable,
+        props: {
+            keiyakuKonyu: {
+                MeigaraName: 'テスト銘柄',
+                MeigaraCode: '12345678',
+                HasMokuromishoConfirmed: false,
+            },
+        },
+    },
 ];
 
 </script>

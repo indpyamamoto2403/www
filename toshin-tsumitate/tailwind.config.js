@@ -15,6 +15,20 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            // カスタムカラーを追加
+            colors: {
+                common:{
+                    "border-color":"#8692A7",
+                    "card-border-color":"#CBD6EA",
+                },
+
+                nisa:{
+                    "seicho-toshigaku": "#0186BF",
+                    "seicho-kanogaku": "#41BCF2",
+                    "tsumitate-toshigaku": "#0DB8A4",
+                    "tsumitate-kanogaku": "#59DBC4",
+                }
+            }
         },
     },
 

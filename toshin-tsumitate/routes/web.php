@@ -24,6 +24,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::inertia('/story-book', 'StoryBook/Index');
+Route::inertia('/story-book', 'StoryBook/Index')->name('story-book.index');
 
 require __DIR__.'/auth.php';
