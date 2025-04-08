@@ -20,8 +20,8 @@ export default {
                 common:{
                     "border-color":"#8692A7",
                     "card-border-color":"#CBD6EA",
+                    "radio-active":"#191D5A",
                 },
-
                 nisa:{
                     "seicho-toshigaku": "#0186BF",
                     "seicho-kanogaku": "#41BCF2",

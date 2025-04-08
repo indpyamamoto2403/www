@@ -133,7 +133,7 @@ const components = [
 </script>
 <template>
     <div class="flex justify-center items-center min-w-screen bg-gray-100 mx-auto mx-12 min-h-screen">
-        <div class="bg-white rounded-lg shadow-md text-center px-12 py-8 w-4/5">
+        <div class="rounded-lg shadow-md text-center px-12 py-8 w-4/5 bg-slate-100 my-10">
             <h1 class="text-2xl font-bold mb-4">Storybook</h1>
             <div class="grid grid-cols-1 gap-4">
                 <div 
